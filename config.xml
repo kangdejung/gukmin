@@ -12,7 +12,7 @@
 	<preference name="android-minSdkVersion" value="15" />
 	<preference name="fullscreen" value="true" />
     <gap:plugin name="org.apache.cordova.device" />
-    <plugin name="org.apache.cordova.inappbrowser" spec="0.1.0" source="pgb" />
+    <plugin name="org.apache.cordova.inappbrowser" spec="0.6.0" source="pgb" />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 
 	<icon src="icon.png" />
