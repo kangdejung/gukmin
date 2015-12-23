@@ -12,9 +12,10 @@
 	<preference name="android-minSdkVersion" value="15" />
 	<preference name="fullscreen" value="true" />
     <gap:plugin name="org.apache.cordova.device" />
-    <plugin name="org.apache.cordova.inappbrowser" spec="0.6.0" source="pgb" />
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm"  />
 	<gap:plugin name="org.apache.cordova.splashscreen" />
-
+	<allow-navigation href="http://xn--3e0bv5jsrhmrbv6g.net/*" />
 	<icon src="icon.png" />
     <content src="index.html" />
     <access origin="*" />
